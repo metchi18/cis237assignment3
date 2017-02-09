@@ -9,11 +9,11 @@
 
 The Jawas on Tatooine have recently opened a droid factory and they want to hire you to write a program to hold a list of the available droids, and the price of each droid. The price is based on the type: (protocol, utility, janitor, or astromech), the material used and the options selected by the Jawa creating the list.
 
-The program will keep a list of Droids that are created. This list can be either an array or in the form of one of the C# List classes. The array or list should be of a type that is high enough on the inheritance chain that all droids no matter what type they are can be stored in it. (Think Polymorphism)
+The program will keep a list of Droids that are created. This list must be an array. The array should be of a type that is high enough on the inheritance chain that all droids no matter what type they are can be stored in it. (Think Polymorphism)
 
-A Jawa will be presented with a user interface to add a new Droid, or print the current Droid list. Adding a new Droid will require input from the Jawa to create the new droid. Once all of the needed information is added for the droid, the new droid will be added to the list.
+A Jawa will be presented with a user interface to add a new Droid, or print the current Droid list. Adding a new Droid will require input from the Jawa to create the new droid. Once all of the needed information is added for the droid, the new droid will be added to the droid collection.
 
-If a Jawa decides to print the list of droids in inventory, the program should loop through all of the droids in the list and print out the information from ToString, and the TotalCost for each droid. This should be accomplished using Polymorphism to reduce the amount of code needed.
+If a Jawa decides to print the collection of droids in inventory, the program should loop through all of the droids in the collection and print out the information from ToString, and the TotalCost for each droid. This should be accomplished using Polymorphism to reduce the amount of code needed.
 
 All of the prices for the various aspects of a droid are left up to you to determine. If I was doing it though, I would probably have a small set price for each of the following general options, and not get too specific to save time. ie:
 1. A price for model(protocol, utility, etc.)

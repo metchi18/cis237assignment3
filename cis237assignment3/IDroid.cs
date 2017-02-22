@@ -8,8 +8,18 @@ namespace cis237assignment3
 {
     interface IDroid
     {
+        //Methods
         void CalculateTotalCost();
+        
+        
 
-        decimal TotalCost { get; set; }
+
+        //Properties
+        decimal TotalCost
+        {
+            get;
+            set;
+        }
+
     }
 }
